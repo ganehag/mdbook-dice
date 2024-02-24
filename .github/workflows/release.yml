@@ -20,7 +20,6 @@ jobs:
         id: create_release
         uses: taiki-e/create-gh-release-action@v1
         with:
-          changelog: CHANGELOG.md
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and Upload Rust Binary
