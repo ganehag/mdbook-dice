@@ -2,8 +2,6 @@ name: Release mdbook-dice
 
 on:
   push:
-    branches:
-      - main
     tags:
       - 'v*.*.*'
 
